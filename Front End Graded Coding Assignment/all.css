@@ -1,0 +1,178 @@
+header{
+    font-weight:bold;
+    font-size: 45px;
+    padding:20px;
+    text-align: center;
+    background-color:grey;
+    top:0%;
+    width:99%; 
+    margin-right: 30px;
+    color: white;
+    position: sticky;
+}
+
+
+footer{
+    font-size: 20spx;
+    padding:8px;
+    text-align: center;
+    background-color:black;
+    color: white;
+    width:99%;   
+    bottom:0%;
+    border:2px solid black;
+}
+
+nav{
+    background-color:rgb(162, 162, 168);
+    top:10px;
+    width:100%;
+    margin: 0%;
+    padding: 5px;
+    position:sticky;
+}
+
+.list1{
+    list-style: none;
+    display:flex;
+}
+.list1 li{
+    padding:5px 40px;
+    position:relative;
+}
+.list1 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+}
+.list1 li:nth-of-type(1):hover{
+    background-color: rgb(44, 43, 42);
+}
+.list1 li:nth-of-type(2):hover{
+    background-color: rgb(44, 43, 42);
+}
+.list1 li:nth-of-type(3):hover{
+    background-color:rgb(44, 43, 42);
+}
+.list1 li:nth-of-type(4):hover{
+    background-color:rgb(44, 43, 42);
+}
+.dropdown1{
+    display:none
+}
+.list1 li:hover .dropdown1{
+    display:block;
+    position:absolute;
+    left:0;
+    top:100;
+    background-color: rgb(47, 124, 70);
+    padding-right: 20px;
+    
+}
+.dropdown1 ul{
+    display:block;
+    margin:0% ;
+}
+.dropdown1 ul li{
+    width:129px;
+    padding:5px;
+    list-style: none;
+    color:blue;
+}
+.dropdown2{
+    display:none
+}   
+.list1 li:hover .dropdown2{
+    display:block;
+    position:absolute;
+    left:0%;
+    top:100;
+    background-color: rgb(47, 124, 70);
+    padding-right: 20px;
+    
+}
+.dropdown2 ul{
+    display:block;
+    margin:0%;
+}
+.dropdown2 ul li{
+    width:106px;
+    padding:5px;
+    list-style: none;
+    color:blue;
+}
+
+#A{
+    border:2px solid steelblue;
+    width:99.55%;
+    height:435px;
+    margin:1.5px;
+    padding:3px;
+    animation-name:imagechange;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@keyframes imagechange{
+    0% {background-image: url('Images/Animation/ani1.jpg');}
+    20% {background-image: url('Images/Animation/ani2.png');}
+    40% {background-image: url('Images/Animation/ani3.jpg');}
+    60% {background-image: url('Images/Animation/ani4.jpg')}
+    80% {background-image: url('Images/Animation/ani5.jpg')}
+    100% {background-image: url('Images/Animation/ani1.jpg' )}
+}
+
+section{
+    border: 2px solid black;
+    height:1000px;
+    margin:1.5px;
+    width:100%;  
+    max-width: 100%;
+    height:auto
+}
+
+p{
+    width:18%;
+    background-color:rgb(238, 235, 235);
+    height: 320px;
+    display:inline-block;
+    padding: 20px;
+    margin:20px;
+    line-height: 20px;
+    color:blue;
+    max-width: 100%;
+    height:auto
+}
+    
+button{
+    border-radius:10px;
+    width:220px; 
+    padding:5px; 
+    font-weight:bold;
+    color:orange; 
+    border-color: blueviolet;
+    font-size:17px;
+    max-width: 100%;
+    height:auto;
+}
+    button:active{
+    background-color: rgb(250,234,230);
+    border-color: rgb(0,255,76);
+}
+
+.heading{
+    padding:10px; 
+    font-size:30px; 
+}
+img{
+    width:225px;
+    height:225px;
+    max-width: 100%;
+    height:auto
+}
+b{
+    color: black;
+    font-size:18px
+}
